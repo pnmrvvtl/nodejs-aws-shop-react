@@ -29,6 +29,7 @@ root.render(
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <App />
+          <h1 style={{ textAlign: "center" }}>Vitalii Ponomarov</h1>
         </ThemeProvider>
         <ReactQueryDevtools initialIsOpen={false} />
       </QueryClientProvider>
